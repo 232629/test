@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.10.1\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39867E8C-D6A1-479B-8DB1-9E69C815C8BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UITestDirect2.Core</RootNamespace>
+    <AssemblyName>UITestDirect2.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Protractor, Version=0.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Protractor.0.11.0\lib\net40\Protractor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.11.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.11.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomElements\NgCustomCheckboxElement.cs" />
+    <Compile Include="CustomElements\NgCustomSelectElement.cs" />
+    <Compile Include="Helpers\AssertHelper.cs" />
+    <Compile Include="Helpers\ImageCompare.cs" />
+    <Compile Include="Helpers\LoginHelper.cs" />
+    <Compile Include="Helpers\RegistrationDataStructures.cs" />
+    <Compile Include="Helpers\RegistrationHelper.cs" />
+    <Compile Include="Infrastructure\APIHelper.cs" />
+    <Compile Include="Infrastructure\DriverExtensions.cs" />
+    <Compile Include="Infrastructure\Log.cs" />
+    <Compile Include="Infrastructure\ScreenShots.cs" />
+    <Compile Include="Pages\Client area\PageChangeDefaultLanguage.cs" />
+    <Compile Include="Pages\Client area\PageChangeEmail.cs" />
+    <Compile Include="Pages\Client area\PageChangePassword.cs" />
+    <Compile Include="Pages\Client area\PageChangeResidentalAddress.cs" />
+    <Compile Include="Pages\Client area\PageChangeSubscriptions.cs" />
+    <Compile Include="Pages\Client area\PageClosedAccount.cs" />
+    <Compile Include="Pages\Client area\PageCommon.cs" />
+    <Compile Include="Pages\Client area\PageCreateDemoAccount.cs" />
+    <Compile Include="Pages\Client area\PageCreateRealAccount.cs" />
+    <Compile Include="Pages\Client area\PageDeposit.cs" />
+    <Compile Include="Pages\Client area\PageDepositBankwire.cs" />
+    <Compile Include="Pages\Client area\PageDepositCard.cs" />
+    <Compile Include="Pages\Client area\PageDepositIngenico.cs" />
+    <Compile Include="Pages\Client area\PageEditPersonalDetails.cs" />
+    <Compile Include="Pages\Client area\PageFaq.cs" />
+    <Compile Include="Pages\Client area\PageLegalDocumentation.cs" />
+    <Compile Include="Pages\Client area\PageManageBankDetails.cs" />
+    <Compile Include="Pages\Client area\PageProfile.cs" />
+    <Compile Include="Pages\Client area\PageTradingAccountsBase.cs" />
+    <Compile Include="Pages\Client area\PageTradingAccountsDemo.cs" />
+    <Compile Include="Pages\Client area\PageTradingAccountsReal.cs" />
+    <Compile Include="Pages\Client area\PageTransferInstructions.cs" />
+    <Compile Include="Pages\Client area\PageUploadDocuments.cs" />
+    <Compile Include="Pages\PageBase.cs" />
+    <Compile Include="Pages\Registration\PageActivationCode.cs" />
+    <Compile Include="Pages\Registration\PageAfterLogout.cs" />
+    <Compile Include="Pages\Registration\PageFogetPassword.cs" />
+    <Compile Include="Pages\Registration\PageLogin.cs" />
+    <Compile Include="Pages\Registration\PageRegister.cs" />
+    <Compile Include="Pages\Registration\PageRregisterStep1.cs" />
+    <Compile Include="Pages\Registration\PageRregisterStep2.cs" />
+    <Compile Include="Pages\Registration\PageRregisterStep3.cs" />
+    <Compile Include="Pages\Registration\PageThankYou.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.10.1\build\NUnit.props'))" />
+  </Target>
+</Project>

@@ -1,0 +1,995 @@
+{
+    "data": [
+        {
+            "fields": [
+                {
+                    "id": 5,
+                    "key": "taxCode",
+                    "description": "US Tax Code",
+                    "mandatory": false,
+                    "mandatoryIf": [
+                        {
+                            "field": "usTaxPayer",
+                            "option": "usTaxPayerYes"
+                        }
+                    ],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 283,
+                    "key": "employmentStatus",
+                    "description": "Employment Status",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 1,
+                            "key": "employed",
+                            "description": "Employed",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 2,
+                            "key": "selfEmployed",
+                            "description": "Self-Employed",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 3,
+                            "key": "retired",
+                            "description": "Retired",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 4,
+                            "key": "student",
+                            "description": "Student",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 9,
+                            "key": "unemployed",
+                            "description": "Unemployed",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 284,
+                    "key": "industry",
+                    "description": "Industry",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 172,
+                            "key": "accountancy",
+                            "description": "Accountancy",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 173,
+                            "key": "adminSecretarial",
+                            "description": "Admin / Secretarial",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 174,
+                            "key": "agricultural",
+                            "description": "Agricultural",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 175,
+                            "key": "cateringHospitality",
+                            "description": "Catering / Hospitality",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 176,
+                            "key": "companyServices",
+                            "description": "Company Services",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 177,
+                            "key": "creativeMedia",
+                            "description": "Creative / Media",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 178,
+                            "key": "defenceMilitary",
+                            "description": "Defence / Military",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 179,
+                            "key": "education",
+                            "description": "Education",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 180,
+                            "key": "emergencyServices",
+                            "description": "Emergency Services",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 181,
+                            "key": "energy",
+                            "description": "Energy",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 182,
+                            "key": "engineering",
+                            "description": "Engineering",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 183,
+                            "key": "exportImport",
+                            "description": "Export / Import",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 184,
+                            "key": "financialServices",
+                            "description": "Financial Services",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 185,
+                            "key": "governmentPublicSector",
+                            "description": "Government / Public Sector",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 186,
+                            "key": "legal",
+                            "description": "Legal",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 187,
+                            "key": "leisureEntertainmentTourism",
+                            "description": "Leisure / Entertainment / Tourism",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 188,
+                            "key": "manufacturing",
+                            "description": "Manufacturing",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 189,
+                            "key": "marketingPRAdvertising",
+                            "description": "Marketing / PR / Advertising",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 190,
+                            "key": "nonGovernmentalOrganisation",
+                            "description": "Non-Governmental Organisation",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 191,
+                            "key": "notProfitCharity",
+                            "description": "Not for Profit / Charity",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 192,
+                            "key": "pharmaceuticals",
+                            "description": "Pharmaceuticals",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 193,
+                            "key": "preciousMetalsStones",
+                            "description": "Precious Metals / Stones",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 194,
+                            "key": "propertyConstructionTrade",
+                            "description": "Property / Construction / Trade",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 195,
+                            "key": "retail",
+                            "description": "Retail",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 196,
+                            "key": "socialCareServicesHealthMedicine",
+                            "description": "Social Care / Services / Health / Medicine",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 197,
+                            "key": "technology",
+                            "description": "Technology",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 198,
+                            "key": "telecommunications",
+                            "description": "Telecommunications",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 199,
+                            "key": "transportLogistics",
+                            "description": "Transport / Logistics",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 200,
+                            "key": "otherEmployment",
+                            "description": "Other",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 285,
+                    "key": "educationLevel",
+                    "description": "What is your level of education ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 24,
+                            "key": "highSchool",
+                            "description": "High School",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 25,
+                            "key": "bachelorDegree",
+                            "description": "Bachelor’s Degree or equivalent",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 26,
+                            "key": "masterDegree",
+                            "description": "Master’s Degree or equivalent",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 27,
+                            "key": "phd",
+                            "description": "PhD or equivalent",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 28,
+                            "key": "noEducation",
+                            "description": "None",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 286,
+                    "key": "netWorth",
+                    "description": "What is your estimated Net Worth (USD) ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 166,
+                            "key": "lessThan50k",
+                            "description": "$0 – $50,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 167,
+                            "key": "50kTo100k",
+                            "description": "$50,000 – $100,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 168,
+                            "key": "100kTo250k",
+                            "description": "$100,000 – $250,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 169,
+                            "key": "250kTo500k",
+                            "description": "$250,000 – $500,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 201,
+                            "key": "500kTo1m",
+                            "description": "$500,000 – $1,000,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 171,
+                            "key": "1mTo5m",
+                            "description": "$1,000,000 – $5,000,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 170,
+                            "key": "greaterThan5m",
+                            "description": "> $5,000,000",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 287,
+                    "key": "annualIncome",
+                    "description": "What is your Annual Income (USD) ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 150,
+                            "key": "lessThan50k",
+                            "description": "$0 – $50,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 153,
+                            "key": "50kTo100k",
+                            "description": "$50,000 – $100,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 157,
+                            "key": "100kTo250k",
+                            "description": "$100,000 – $250,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 158,
+                            "key": "250kTo500k",
+                            "description": "$250,000 – $500,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 203,
+                            "key": "500kTo1m",
+                            "description": "$500,000 – $1,000,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 159,
+                            "key": "greaterThan1m",
+                            "description": "> $1,000,000 ",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 289,
+                    "key": "joinReason",
+                    "description": "What is the reason you want to open an account with FxPro (USD) ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 44,
+                            "key": "reasonForex",
+                            "description": "To trade CFDs on Forex",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 45,
+                            "key": "reasonShares",
+                            "description": "To trade CFDs on Shares",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 46,
+                            "key": "reasonIndices",
+                            "description": "To trade CFDs on Indices / Commodities",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 290,
+                    "key": "anticipatedDeposit",
+                    "description": "How much do you expect to deposit in next 12 months (USD) ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 48,
+                            "key": "lessThan10k",
+                            "description": "< 10,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 49,
+                            "key": "10kTo50k",
+                            "description": "10,000 - 50,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 51,
+                            "key": "50kTo100k",
+                            "description": "50,000 - 100,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 52,
+                            "key": "100kTo300k",
+                            "description": "100,000 - 300,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 54,
+                            "key": "300kTo1m",
+                            "description": "300,000 - 1,000,000",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 55,
+                            "key": "greaterThan1m",
+                            "description": "> $1,000,000",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 291,
+                    "key": "usTaxPayer",
+                    "description": "Are you a US citizen or a US resident for tax purposes ?",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 58,
+                            "key": "usTaxPayerNo",
+                            "description": "No",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 59,
+                            "key": "usTaxPayerYes",
+                            "description": "Yes",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 292,
+                    "key": "fxCfdHasTradingExperience",
+                    "description": "What is your trading experience",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 60,
+                            "key": "fxCfdHasTradingExperienceYes",
+                            "description": "Yes, I have traded on a real account",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 61,
+                            "key": "fxCfdHasTradingExperienceNo",
+                            "description": "No",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 293,
+                    "key": "fxCfdYearsExperience",
+                    "description": "How much experience do you have with trading FX, CFDs, Spread Bets or other financial products ?",
+                    "mandatory": false,
+                    "mandatoryIf": [
+                        {
+                            "field": "fxCfdHasTradingExperience",
+                            "option": "fxCfdHasTradingExperienceYes"
+                        }
+                    ],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 62,
+                            "key": "lessThan1y",
+                            "description": "< 1 year",
+                            "score": 0.5
+                        },
+                        {
+                            "id": 63,
+                            "key": "1yTo3y",
+                            "description": "1 to 3 years",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 64,
+                            "key": "moreThan3y",
+                            "description": "> 3 years",
+                            "score": 1.5
+                        }
+                    ]
+                },
+                {
+                    "id": 294,
+                    "key": "fxCfdTradesLastYear",
+                    "description": "How many trades have you placed in the past 12 months ?",
+                    "mandatory": false,
+                    "mandatoryIf": [
+                        {
+                            "field": "fxCfdHasTradingExperience",
+                            "option": "fxCfdHasTradingExperienceYes"
+                        }
+                    ],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 65,
+                            "key": "lessThan50",
+                            "description": "< 50",
+                            "score": 0.5
+                        },
+                        {
+                            "id": 66,
+                            "key": "moreThan50",
+                            "description": "> 50",
+                            "score": 1.0
+                        }
+                    ]
+                },
+                {
+                    "id": 295,
+                    "key": "knowledgeMap",
+                    "description": "Do any of the below apply to you?",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 67,
+                            "key": "experienceRelevantEducation",
+                            "description": "I have a relevant educational / professional qualification",
+                            "score": 1.5
+                        },
+                        {
+                            "id": 68,
+                            "key": "experienceMonitoringNewsMarkets",
+                            "description": "I regularly monitor the news/markets",
+                            "score": 1.0
+                        },
+                        {
+                            "id": 69,
+                            "key": "experienceReadEducationalMaterial",
+                            "description": "I have read educational material on trading",
+                            "score": 1.0
+                        }
+                    ]
+                },
+                {
+                    "id": 296,
+                    "key": "knowledgeQuestion1",
+                    "description": "What would be the required margin for 1 lot (100,000) EURUSD, if your account currency is EUR and your\r\nleverage is 1:100 ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 72,
+                            "key": "question150",
+                            "description": "50 EUR",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 73,
+                            "key": "question11k",
+                            "description": "1,000 EUR",
+                            "score": 1.5
+                        },
+                        {
+                            "id": 74,
+                            "key": "question120k",
+                            "description": "20,000 EUR",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 297,
+                    "key": "knowledgeQuestion2",
+                    "description": "What type of closing order can you choose to help limit losses when trading ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 75,
+                            "key": "question2TP",
+                            "description": "A take profit order",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 76,
+                            "key": "question2SL",
+                            "description": "A stop loss order",
+                            "score": 1.5
+                        },
+                        {
+                            "id": 81,
+                            "key": "question2NoOrder",
+                            "description": "No such order exists",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 298,
+                    "key": "knowledgeQuestion3",
+                    "description": "The market moves by 2%. Trading with which leverage would lead to the largest potential profit or loss ?",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 78,
+                            "key": "question3150",
+                            "description": "1:50",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 79,
+                            "key": "question31100",
+                            "description": "1:100",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 80,
+                            "key": "question31500",
+                            "description": "1:500",
+                            "score": 1.5
+                        },
+                        {
+                            "id": 123,
+                            "key": "question3SameLoss",
+                            "description": "Loss would be the same",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 301,
+                    "key": "sourceIncome",
+                    "description": "Source of Income",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 84,
+                            "key": "sourceIncomeEmployment",
+                            "description": "Employment / Business Ownership ",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 85,
+                            "key": "sourceIncomeSavings",
+                            "description": "Savings / Investments ",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 86,
+                            "key": "sourceIncomeGifts",
+                            "description": "Gifts / Inheritance",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 87,
+                            "key": "sourceIncomeOther",
+                            "description": "Other",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 302,
+                    "key": "language",
+                    "description": "Preferred Language",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 88,
+                            "key": "ar",
+                            "description": "Arabic",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 91,
+                            "key": "en",
+                            "description": "English",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 304,
+                    "key": "street",
+                    "description": "street",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 306,
+                    "key": "city",
+                    "description": "city",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 312,
+                    "key": "birthDate",
+                    "description": "birthDate",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 313,
+                    "key": "phone",
+                    "description": "phone",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 317,
+                    "key": "newsSubscription",
+                    "description": "newsSubscription",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 318,
+                    "key": "technicalAnalysisSubscription",
+                    "description": "technicalAnalysisSubscription",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 319,
+                    "key": "awareAboutRisk",
+                    "description": "awareAboutRisk",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 320,
+                    "key": "termsConditions",
+                    "description": "termsConditions",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 321,
+                    "key": "nationality",
+                    "description": "Nationality",
+                    "mandatory": true,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 323,
+                    "key": "emirate",
+                    "description": "Emirate",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 137,
+                            "key": "emirateAbuDhabi",
+                            "description": "Abu Dhabi ",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 138,
+                            "key": "emirateAjman",
+                            "description": "Ajman",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 139,
+                            "key": "emirateDubai",
+                            "description": "Dubai",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 140,
+                            "key": "emirateFujairah",
+                            "description": "Fujairah",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 141,
+                            "key": "emirateRasAlKhaimah",
+                            "description": "Ras al-Khaimah",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 142,
+                            "key": "emirateSharjah",
+                            "description": "Sharjah",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 143,
+                            "key": "emirateUmmAlQuwain",
+                            "description": "Umm al-Quwain",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 324,
+                    "key": "professionalClient",
+                    "description": "You may qualify to be categorised as a Professional Client. Would you like to be treated as a Professional Client?",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 144,
+                            "key": "professionalClientNo",
+                            "description": "No",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 145,
+                            "key": "professionalClientYes",
+                            "description": "Yes",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 325,
+                    "key": "leveragedProductExperience",
+                    "description": "Do you have any professional experience or qualifications that are relevant and assist your understanding of trading leveraged products?",
+                    "mandatory": false,
+                    "mandatoryIf": [
+                        {
+                            "field": "professionalClient",
+                            "option": "professionalClientYes"
+                        }
+                    ],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": [
+                        {
+                            "id": 147,
+                            "key": "leveragedProductExperienceMoreThan2years",
+                            "description": "Working in a financial institution for more than two years",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 148,
+                            "key": "leveragedProductExperienceOther",
+                            "description": "Other",
+                            "score": 0.0
+                        },
+                        {
+                            "id": 149,
+                            "key": "leveragedProductExperienceProfessionalQualification",
+                            "description": "Relevant professional qualification and/or education",
+                            "score": 0.0
+                        }
+                    ]
+                },
+                {
+                    "id": 326,
+                    "key": "leveragedProductExperienceOther",
+                    "description": "Please provide further details?\t",
+                    "mandatory": false,
+                    "mandatoryIf": [
+                        {
+                            "field": "leveragedProductExperience",
+                            "option": "leveragedProductExperienceOther"
+                        }
+                    ],
+                    "mandatoryAppropriateness": true,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 327,
+                    "key": "sourceIncomeOther",
+                    "description": "Source of Wealth Other",
+                    "mandatory": false,
+                    "mandatoryIf": [],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                },
+                {
+                    "id": 328,
+                    "key": "industryOther",
+                    "description": "Other Industry",
+                    "mandatory": false,
+                    "mandatoryIf": [
+                        {
+                            "field": "industry",
+                            "option": "otherEmployment"
+                        }
+                    ],
+                    "mandatoryAppropriateness": false,
+                    "readOnly": false,
+                    "options": []
+                }
+            ],
+            "config": []
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "mt4m": {
+                "groups": {
+                    "eur": {
+                        "group": "demoDGAEBGE",
+                        "servers": [
+                            "nf.test4"
+                        ]
+                    },
+                    "gbp": {
+                        "group": "demoDGAEBGP",
+                        "servers": [
+                            "nf.test4"
+                        ]
+                    },
+                    "usd": {
+                        "group": "demoDGAEBGD",
+                        "servers": [
+                            "nf.test4"
+                        ]
+                    }
+                },
+                "leverages": [
+                    1,
+                    2,
+                    3,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    33,
+                    50,
+                    66,
+                    75,
+                    100,
+                    125,
+                    150,
+                    175,
+                    200,
+                    300,
+                    400,
+                    500
+                ],
+                "options": null
+            }
+        }
+    ]
+}

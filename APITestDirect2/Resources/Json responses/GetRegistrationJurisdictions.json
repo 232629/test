@@ -1,0 +1,1286 @@
+{
+    "data": [
+        {
+            "authorities": [
+                {
+                    "key": "mena",
+                    "name": "DUBAI",
+                    "description": "MENA",
+                    "url": "https://direct.fxpro.local/partner/",
+                    "cifCode": 40,
+                    "defaultLeverage": 50
+                },
+                {
+                    "key": "gm",
+                    "name": "Global Markets",
+                    "description": "GLobal Markets - Bahamas",
+                    "url": "https://direct.fxpro.local/partner/",
+                    "cifCode": 30,
+                    "defaultLeverage": null
+                }
+            ],
+            "countries": [
+                {
+                    "defaultAuthority": null,
+                    "defaultCurrency": "USD",
+                    "authorities": [
+                        "cysec",
+                        "fca",
+                        "mena",
+                        "gm"
+                    ],
+                    "key": "AE",
+                    "numericCode": 784,
+                    "name": "United Arab Emirates"
+                }
+            ],
+            "nationalities": [
+                {
+                    "key": "AF",
+                    "numericCode": 4,
+                    "name": "Afghanistan"
+                },
+                {
+                    "key": "AX",
+                    "numericCode": 248,
+                    "name": "Aland Islands"
+                },
+                {
+                    "key": "AL",
+                    "numericCode": 8,
+                    "name": "Albania"
+                },
+                {
+                    "key": "DZ",
+                    "numericCode": 12,
+                    "name": "Algeria"
+                },
+                {
+                    "key": "AS",
+                    "numericCode": 16,
+                    "name": "American Samoa"
+                },
+                {
+                    "key": "AD",
+                    "numericCode": 20,
+                    "name": "Andorra"
+                },
+                {
+                    "key": "AO",
+                    "numericCode": 24,
+                    "name": "Angola"
+                },
+                {
+                    "key": "AI",
+                    "numericCode": 660,
+                    "name": "Anguilla"
+                },
+                {
+                    "key": "AQ",
+                    "numericCode": 10,
+                    "name": "Antarctica"
+                },
+                {
+                    "key": "AG",
+                    "numericCode": 28,
+                    "name": "Antigua and Barbuda"
+                },
+                {
+                    "key": "AR",
+                    "numericCode": 32,
+                    "name": "Argentina"
+                },
+                {
+                    "key": "AM",
+                    "numericCode": 51,
+                    "name": "Armenia"
+                },
+                {
+                    "key": "AW",
+                    "numericCode": 533,
+                    "name": "Aruba"
+                },
+                {
+                    "key": "AU",
+                    "numericCode": 36,
+                    "name": "Australia"
+                },
+                {
+                    "key": "AT",
+                    "numericCode": 40,
+                    "name": "Austria"
+                },
+                {
+                    "key": "AZ",
+                    "numericCode": 31,
+                    "name": "Azerbaijan"
+                },
+                {
+                    "key": "BS",
+                    "numericCode": 44,
+                    "name": "Bahamas"
+                },
+                {
+                    "key": "BH",
+                    "numericCode": 48,
+                    "name": "Bahrain"
+                },
+                {
+                    "key": "BD",
+                    "numericCode": 50,
+                    "name": "Bangladesh"
+                },
+                {
+                    "key": "BB",
+                    "numericCode": 52,
+                    "name": "Barbados"
+                },
+                {
+                    "key": "BY",
+                    "numericCode": 112,
+                    "name": "Belarus"
+                },
+                {
+                    "key": "BE",
+                    "numericCode": 56,
+                    "name": "Belgium"
+                },
+                {
+                    "key": "BZ",
+                    "numericCode": 84,
+                    "name": "Belize"
+                },
+                {
+                    "key": "BJ",
+                    "numericCode": 204,
+                    "name": "Benin"
+                },
+                {
+                    "key": "BM",
+                    "numericCode": 60,
+                    "name": "Bermuda"
+                },
+                {
+                    "key": "BT",
+                    "numericCode": 64,
+                    "name": "Bhutan"
+                },
+                {
+                    "key": "BO",
+                    "numericCode": 68,
+                    "name": "Bolivia, Plurinational State of"
+                },
+                {
+                    "key": "BQ",
+                    "numericCode": 535,
+                    "name": "Bonaire, Sint Eustatius and Saba"
+                },
+                {
+                    "key": "BA",
+                    "numericCode": 70,
+                    "name": "Bosnia and Herzegovina"
+                },
+                {
+                    "key": "BW",
+                    "numericCode": 72,
+                    "name": "Botswana"
+                },
+                {
+                    "key": "BV",
+                    "numericCode": 74,
+                    "name": "Bouvet Island"
+                },
+                {
+                    "key": "BR",
+                    "numericCode": 76,
+                    "name": "Brazil"
+                },
+                {
+                    "key": "IO",
+                    "numericCode": 86,
+                    "name": "British Indian Ocean Territory"
+                },
+                {
+                    "key": "BN",
+                    "numericCode": 96,
+                    "name": "Brunei Darussalam"
+                },
+                {
+                    "key": "BG",
+                    "numericCode": 100,
+                    "name": "Bulgaria"
+                },
+                {
+                    "key": "BF",
+                    "numericCode": 854,
+                    "name": "Burkina Faso"
+                },
+                {
+                    "key": "BI",
+                    "numericCode": 108,
+                    "name": "Burundi"
+                },
+                {
+                    "key": "KH",
+                    "numericCode": 116,
+                    "name": "Cambodia"
+                },
+                {
+                    "key": "CM",
+                    "numericCode": 120,
+                    "name": "Cameroon"
+                },
+                {
+                    "key": "CA",
+                    "numericCode": 124,
+                    "name": "Canada"
+                },
+                {
+                    "key": "CV",
+                    "numericCode": 132,
+                    "name": "Cape Verde"
+                },
+                {
+                    "key": "KY",
+                    "numericCode": 136,
+                    "name": "Cayman Islands"
+                },
+                {
+                    "key": "CF",
+                    "numericCode": 140,
+                    "name": "Central African Republic"
+                },
+                {
+                    "key": "TD",
+                    "numericCode": 148,
+                    "name": "Chad"
+                },
+                {
+                    "key": "CL",
+                    "numericCode": 152,
+                    "name": "Chile"
+                },
+                {
+                    "key": "CN",
+                    "numericCode": 156,
+                    "name": "China"
+                },
+                {
+                    "key": "CX",
+                    "numericCode": 162,
+                    "name": "Christmas Island"
+                },
+                {
+                    "key": "CC",
+                    "numericCode": 166,
+                    "name": "Cocos (Keeling) Islands"
+                },
+                {
+                    "key": "CO",
+                    "numericCode": 170,
+                    "name": "Colombia"
+                },
+                {
+                    "key": "KM",
+                    "numericCode": 174,
+                    "name": "Comoros"
+                },
+                {
+                    "key": "CG",
+                    "numericCode": 178,
+                    "name": "Congo"
+                },
+                {
+                    "key": "CD",
+                    "numericCode": 180,
+                    "name": "Congo, the Democratic Republic of the"
+                },
+                {
+                    "key": "CK",
+                    "numericCode": 184,
+                    "name": "Cook Islands"
+                },
+                {
+                    "key": "CR",
+                    "numericCode": 188,
+                    "name": "Costa Rica"
+                },
+                {
+                    "key": "CI",
+                    "numericCode": 384,
+                    "name": "Cote D'Ivoire"
+                },
+                {
+                    "key": "HR",
+                    "numericCode": 191,
+                    "name": "Croatia"
+                },
+                {
+                    "key": "CU",
+                    "numericCode": 192,
+                    "name": "Cuba"
+                },
+                {
+                    "key": "CW",
+                    "numericCode": 531,
+                    "name": "Curacao"
+                },
+                {
+                    "key": "CY",
+                    "numericCode": 196,
+                    "name": "Cyprus"
+                },
+                {
+                    "key": "CZ",
+                    "numericCode": 203,
+                    "name": "Czech Republic"
+                },
+                {
+                    "key": "DK",
+                    "numericCode": 208,
+                    "name": "Denmark"
+                },
+                {
+                    "key": "DJ",
+                    "numericCode": 262,
+                    "name": "Djibouti"
+                },
+                {
+                    "key": "DM",
+                    "numericCode": 212,
+                    "name": "Dominica"
+                },
+                {
+                    "key": "DO",
+                    "numericCode": 214,
+                    "name": "Dominican Republic"
+                },
+                {
+                    "key": "EC",
+                    "numericCode": 218,
+                    "name": "Ecuador"
+                },
+                {
+                    "key": "EG",
+                    "numericCode": 818,
+                    "name": "Egypt"
+                },
+                {
+                    "key": "SV",
+                    "numericCode": 222,
+                    "name": "El Salvador"
+                },
+                {
+                    "key": "GQ",
+                    "numericCode": 226,
+                    "name": "Equatorial Guinea"
+                },
+                {
+                    "key": "ER",
+                    "numericCode": 232,
+                    "name": "Eritrea"
+                },
+                {
+                    "key": "EE",
+                    "numericCode": 233,
+                    "name": "Estonia"
+                },
+                {
+                    "key": "ET",
+                    "numericCode": 231,
+                    "name": "Ethiopia"
+                },
+                {
+                    "key": "FK",
+                    "numericCode": 238,
+                    "name": "Falkland Islands (Malvinas)"
+                },
+                {
+                    "key": "FO",
+                    "numericCode": 234,
+                    "name": "Faroe Islands"
+                },
+                {
+                    "key": "FJ",
+                    "numericCode": 242,
+                    "name": "Fiji"
+                },
+                {
+                    "key": "FI",
+                    "numericCode": 246,
+                    "name": "Finland"
+                },
+                {
+                    "key": "FR",
+                    "numericCode": 250,
+                    "name": "France"
+                },
+                {
+                    "key": "GF",
+                    "numericCode": 254,
+                    "name": "French Guiana"
+                },
+                {
+                    "key": "PF",
+                    "numericCode": 258,
+                    "name": "French Polynesia"
+                },
+                {
+                    "key": "TF",
+                    "numericCode": 260,
+                    "name": "French Southern Territories"
+                },
+                {
+                    "key": "GA",
+                    "numericCode": 266,
+                    "name": "Gabon"
+                },
+                {
+                    "key": "GM",
+                    "numericCode": 270,
+                    "name": "Gambia"
+                },
+                {
+                    "key": "GE",
+                    "numericCode": 268,
+                    "name": "Georgia"
+                },
+                {
+                    "key": "DE",
+                    "numericCode": 276,
+                    "name": "Germany"
+                },
+                {
+                    "key": "GH",
+                    "numericCode": 288,
+                    "name": "Ghana"
+                },
+                {
+                    "key": "GI",
+                    "numericCode": 292,
+                    "name": "Gibraltar"
+                },
+                {
+                    "key": "GR",
+                    "numericCode": 300,
+                    "name": "Greece"
+                },
+                {
+                    "key": "GL",
+                    "numericCode": 304,
+                    "name": "Greenland"
+                },
+                {
+                    "key": "GD",
+                    "numericCode": 308,
+                    "name": "Grenada"
+                },
+                {
+                    "key": "GP",
+                    "numericCode": 312,
+                    "name": "Guadeloupe"
+                },
+                {
+                    "key": "GU",
+                    "numericCode": 316,
+                    "name": "Guam"
+                },
+                {
+                    "key": "GT",
+                    "numericCode": 320,
+                    "name": "Guatemala"
+                },
+                {
+                    "key": "GG",
+                    "numericCode": 831,
+                    "name": "Guernsey"
+                },
+                {
+                    "key": "GN",
+                    "numericCode": 324,
+                    "name": "Guinea"
+                },
+                {
+                    "key": "GW",
+                    "numericCode": 624,
+                    "name": "Guinea-Bissau"
+                },
+                {
+                    "key": "GY",
+                    "numericCode": 328,
+                    "name": "Guyana"
+                },
+                {
+                    "key": "HT",
+                    "numericCode": 332,
+                    "name": "Haiti"
+                },
+                {
+                    "key": "HM",
+                    "numericCode": 334,
+                    "name": "Heard Island and McDonald Islands"
+                },
+                {
+                    "key": "VA",
+                    "numericCode": 336,
+                    "name": "Holy See (Vatican City State)"
+                },
+                {
+                    "key": "HN",
+                    "numericCode": 340,
+                    "name": "Honduras"
+                },
+                {
+                    "key": "HK",
+                    "numericCode": 344,
+                    "name": "Hong Kong"
+                },
+                {
+                    "key": "HU",
+                    "numericCode": 348,
+                    "name": "Hungary"
+                },
+                {
+                    "key": "IS",
+                    "numericCode": 352,
+                    "name": "Iceland"
+                },
+                {
+                    "key": "IN",
+                    "numericCode": 356,
+                    "name": "India"
+                },
+                {
+                    "key": "ID",
+                    "numericCode": 360,
+                    "name": "Indonesia"
+                },
+                {
+                    "key": "IR",
+                    "numericCode": 364,
+                    "name": "Iran, Islamic Republic of"
+                },
+                {
+                    "key": "IQ",
+                    "numericCode": 368,
+                    "name": "Iraq"
+                },
+                {
+                    "key": "IE",
+                    "numericCode": 372,
+                    "name": "Ireland"
+                },
+                {
+                    "key": "IM",
+                    "numericCode": 833,
+                    "name": "Isle of Man"
+                },
+                {
+                    "key": "IL",
+                    "numericCode": 376,
+                    "name": "Israel"
+                },
+                {
+                    "key": "IT",
+                    "numericCode": 380,
+                    "name": "Italy"
+                },
+                {
+                    "key": "JM",
+                    "numericCode": 388,
+                    "name": "Jamaica"
+                },
+                {
+                    "key": "JP",
+                    "numericCode": 392,
+                    "name": "Japan"
+                },
+                {
+                    "key": "JE",
+                    "numericCode": 832,
+                    "name": "Jersey"
+                },
+                {
+                    "key": "JO",
+                    "numericCode": 400,
+                    "name": "Jordan"
+                },
+                {
+                    "key": "KZ",
+                    "numericCode": 398,
+                    "name": "Kazakhstan"
+                },
+                {
+                    "key": "KE",
+                    "numericCode": 404,
+                    "name": "Kenya"
+                },
+                {
+                    "key": "KI",
+                    "numericCode": 296,
+                    "name": "Kiribati"
+                },
+                {
+                    "key": "KP",
+                    "numericCode": 408,
+                    "name": "Korea, Democratic People's Republic of"
+                },
+                {
+                    "key": "KR",
+                    "numericCode": 410,
+                    "name": "Korea, Republic of"
+                },
+                {
+                    "key": "KW",
+                    "numericCode": 414,
+                    "name": "Kuwait"
+                },
+                {
+                    "key": "KG",
+                    "numericCode": 417,
+                    "name": "Kyrgyzstan"
+                },
+                {
+                    "key": "LA",
+                    "numericCode": 418,
+                    "name": "Lao People's Democratic Republic"
+                },
+                {
+                    "key": "LV",
+                    "numericCode": 428,
+                    "name": "Latvia"
+                },
+                {
+                    "key": "LB",
+                    "numericCode": 422,
+                    "name": "Lebanon"
+                },
+                {
+                    "key": "LS",
+                    "numericCode": 426,
+                    "name": "Lesotho"
+                },
+                {
+                    "key": "LR",
+                    "numericCode": 430,
+                    "name": "Liberia"
+                },
+                {
+                    "key": "LY",
+                    "numericCode": 434,
+                    "name": "Libya"
+                },
+                {
+                    "key": "LI",
+                    "numericCode": 438,
+                    "name": "Liechtenstein"
+                },
+                {
+                    "key": "LT",
+                    "numericCode": 440,
+                    "name": "Lithuania"
+                },
+                {
+                    "key": "LU",
+                    "numericCode": 442,
+                    "name": "Luxembourg"
+                },
+                {
+                    "key": "MO",
+                    "numericCode": 446,
+                    "name": "Macao"
+                },
+                {
+                    "key": "MK",
+                    "numericCode": 807,
+                    "name": "Macedonia, The Former Yugoslav Republic of"
+                },
+                {
+                    "key": "MG",
+                    "numericCode": 450,
+                    "name": "Madagascar"
+                },
+                {
+                    "key": "MW",
+                    "numericCode": 454,
+                    "name": "Malawi"
+                },
+                {
+                    "key": "MY",
+                    "numericCode": 458,
+                    "name": "Malaysia"
+                },
+                {
+                    "key": "MV",
+                    "numericCode": 462,
+                    "name": "Maldives"
+                },
+                {
+                    "key": "ML",
+                    "numericCode": 466,
+                    "name": "Mali"
+                },
+                {
+                    "key": "MT",
+                    "numericCode": 470,
+                    "name": "Malta"
+                },
+                {
+                    "key": "MH",
+                    "numericCode": 584,
+                    "name": "Marshall Islands"
+                },
+                {
+                    "key": "MQ",
+                    "numericCode": 474,
+                    "name": "Martinique"
+                },
+                {
+                    "key": "MR",
+                    "numericCode": 478,
+                    "name": "Mauritania"
+                },
+                {
+                    "key": "MU",
+                    "numericCode": 480,
+                    "name": "Mauritius"
+                },
+                {
+                    "key": "YT",
+                    "numericCode": 175,
+                    "name": "Mayotte"
+                },
+                {
+                    "key": "MX",
+                    "numericCode": 484,
+                    "name": "Mexico"
+                },
+                {
+                    "key": "FM",
+                    "numericCode": 583,
+                    "name": "Micronesia, Federated States of"
+                },
+                {
+                    "key": "MD",
+                    "numericCode": 498,
+                    "name": "Moldova, Republic of"
+                },
+                {
+                    "key": "MC",
+                    "numericCode": 492,
+                    "name": "Monaco"
+                },
+                {
+                    "key": "MN",
+                    "numericCode": 496,
+                    "name": "Mongolia"
+                },
+                {
+                    "key": "ME",
+                    "numericCode": 499,
+                    "name": "Montenegro"
+                },
+                {
+                    "key": "MS",
+                    "numericCode": 500,
+                    "name": "Montserrat"
+                },
+                {
+                    "key": "MA",
+                    "numericCode": 504,
+                    "name": "Morocco"
+                },
+                {
+                    "key": "MZ",
+                    "numericCode": 508,
+                    "name": "Mozambique"
+                },
+                {
+                    "key": "MM",
+                    "numericCode": 104,
+                    "name": "Myanmar"
+                },
+                {
+                    "key": "NA",
+                    "numericCode": 516,
+                    "name": "Namibia"
+                },
+                {
+                    "key": "NR",
+                    "numericCode": 520,
+                    "name": "Nauru"
+                },
+                {
+                    "key": "NP",
+                    "numericCode": 524,
+                    "name": "Nepal"
+                },
+                {
+                    "key": "NL",
+                    "numericCode": 528,
+                    "name": "Netherlands"
+                },
+                {
+                    "key": "NC",
+                    "numericCode": 540,
+                    "name": "New Caledonia"
+                },
+                {
+                    "key": "NZ",
+                    "numericCode": 554,
+                    "name": "New Zealand"
+                },
+                {
+                    "key": "NI",
+                    "numericCode": 558,
+                    "name": "Nicaragua"
+                },
+                {
+                    "key": "NE",
+                    "numericCode": 562,
+                    "name": "Niger"
+                },
+                {
+                    "key": "NG",
+                    "numericCode": 566,
+                    "name": "Nigeria"
+                },
+                {
+                    "key": "NU",
+                    "numericCode": 570,
+                    "name": "Niue"
+                },
+                {
+                    "key": "NF",
+                    "numericCode": 574,
+                    "name": "Norfolk Island"
+                },
+                {
+                    "key": "MP",
+                    "numericCode": 580,
+                    "name": "Northern Mariana Islands"
+                },
+                {
+                    "key": "NO",
+                    "numericCode": 578,
+                    "name": "Norway"
+                },
+                {
+                    "key": "OM",
+                    "numericCode": 512,
+                    "name": "Oman"
+                },
+                {
+                    "key": "PK",
+                    "numericCode": 586,
+                    "name": "Pakistan"
+                },
+                {
+                    "key": "PW",
+                    "numericCode": 585,
+                    "name": "Palau"
+                },
+                {
+                    "key": "PS",
+                    "numericCode": 275,
+                    "name": "Palestinian Territory, Occupied"
+                },
+                {
+                    "key": "PA",
+                    "numericCode": 591,
+                    "name": "Panama"
+                },
+                {
+                    "key": "PG",
+                    "numericCode": 598,
+                    "name": "Papua New Guinea"
+                },
+                {
+                    "key": "PY",
+                    "numericCode": 600,
+                    "name": "Paraguay"
+                },
+                {
+                    "key": "PE",
+                    "numericCode": 604,
+                    "name": "Peru"
+                },
+                {
+                    "key": "PH",
+                    "numericCode": 608,
+                    "name": "Philippines"
+                },
+                {
+                    "key": "PN",
+                    "numericCode": 612,
+                    "name": "Pitcairn"
+                },
+                {
+                    "key": "PL",
+                    "numericCode": 616,
+                    "name": "Poland"
+                },
+                {
+                    "key": "PT",
+                    "numericCode": 620,
+                    "name": "Portugal"
+                },
+                {
+                    "key": "PR",
+                    "numericCode": 630,
+                    "name": "Puerto Rico"
+                },
+                {
+                    "key": "QA",
+                    "numericCode": 634,
+                    "name": "Qatar"
+                },
+                {
+                    "key": "RE",
+                    "numericCode": 638,
+                    "name": "Reunion"
+                },
+                {
+                    "key": "RO",
+                    "numericCode": 642,
+                    "name": "Romania"
+                },
+                {
+                    "key": "RU",
+                    "numericCode": 643,
+                    "name": "Russian Federation"
+                },
+                {
+                    "key": "RW",
+                    "numericCode": 646,
+                    "name": "Rwanda"
+                },
+                {
+                    "key": "BL",
+                    "numericCode": 652,
+                    "name": "Saint Barthelemy\r\n"
+                },
+                {
+                    "key": "SH",
+                    "numericCode": 654,
+                    "name": "Saint Helena, Ascension and Tristan da Cunha"
+                },
+                {
+                    "key": "KN",
+                    "numericCode": 659,
+                    "name": "Saint Kitts and Nevis"
+                },
+                {
+                    "key": "LC",
+                    "numericCode": 662,
+                    "name": "Saint Lucia"
+                },
+                {
+                    "key": "MF",
+                    "numericCode": 663,
+                    "name": "Saint Martin (French part)"
+                },
+                {
+                    "key": "PM",
+                    "numericCode": 666,
+                    "name": "Saint Pierre and Miquelon"
+                },
+                {
+                    "key": "VC",
+                    "numericCode": 670,
+                    "name": "Saint Vincent and the Grenadines"
+                },
+                {
+                    "key": "WS",
+                    "numericCode": 882,
+                    "name": "Samoa"
+                },
+                {
+                    "key": "SM",
+                    "numericCode": 674,
+                    "name": "San Marino"
+                },
+                {
+                    "key": "ST",
+                    "numericCode": 678,
+                    "name": "Sao Tome and Principe"
+                },
+                {
+                    "key": "SA",
+                    "numericCode": 682,
+                    "name": "Saudi Arabia"
+                },
+                {
+                    "key": "SN",
+                    "numericCode": 686,
+                    "name": "Senegal"
+                },
+                {
+                    "key": "RS",
+                    "numericCode": 688,
+                    "name": "Serbia"
+                },
+                {
+                    "key": "SC",
+                    "numericCode": 690,
+                    "name": "Seychelles"
+                },
+                {
+                    "key": "SL",
+                    "numericCode": 694,
+                    "name": "Sierra Leone"
+                },
+                {
+                    "key": "SG",
+                    "numericCode": 702,
+                    "name": "Singapore"
+                },
+                {
+                    "key": "SX",
+                    "numericCode": 534,
+                    "name": "Sint Maarten (Dutch part)"
+                },
+                {
+                    "key": "SK",
+                    "numericCode": 703,
+                    "name": "Slovakia"
+                },
+                {
+                    "key": "SI",
+                    "numericCode": 705,
+                    "name": "Slovenia"
+                },
+                {
+                    "key": "SB",
+                    "numericCode": 90,
+                    "name": "Solomon Islands"
+                },
+                {
+                    "key": "SO",
+                    "numericCode": 706,
+                    "name": "Somalia"
+                },
+                {
+                    "key": "ZA",
+                    "numericCode": 710,
+                    "name": "South Africa"
+                },
+                {
+                    "key": "GS",
+                    "numericCode": 239,
+                    "name": "South Georgia and the South Sandwich Islands"
+                },
+                {
+                    "key": "SS",
+                    "numericCode": 728,
+                    "name": "South Sudan"
+                },
+                {
+                    "key": "ES",
+                    "numericCode": 724,
+                    "name": "Spain"
+                },
+                {
+                    "key": "LK",
+                    "numericCode": 144,
+                    "name": "Sri Lanka"
+                },
+                {
+                    "key": "SD",
+                    "numericCode": 729,
+                    "name": "Sudan"
+                },
+                {
+                    "key": "SR",
+                    "numericCode": 740,
+                    "name": "Suriname"
+                },
+                {
+                    "key": "SJ",
+                    "numericCode": 744,
+                    "name": "Svalbard and Jan Mayen"
+                },
+                {
+                    "key": "SZ",
+                    "numericCode": 748,
+                    "name": "Swaziland"
+                },
+                {
+                    "key": "SE",
+                    "numericCode": 752,
+                    "name": "Sweden"
+                },
+                {
+                    "key": "CH",
+                    "numericCode": 756,
+                    "name": "Switzerland"
+                },
+                {
+                    "key": "SY",
+                    "numericCode": 760,
+                    "name": "Syrian Arab Republic"
+                },
+                {
+                    "key": "TW",
+                    "numericCode": 158,
+                    "name": "Taiwan, Province of China"
+                },
+                {
+                    "key": "TJ",
+                    "numericCode": 762,
+                    "name": "Tajikistan"
+                },
+                {
+                    "key": "TZ",
+                    "numericCode": 834,
+                    "name": "Tanzania, United Republic of"
+                },
+                {
+                    "key": "TH",
+                    "numericCode": 764,
+                    "name": "Thailand"
+                },
+                {
+                    "key": "TL",
+                    "numericCode": 626,
+                    "name": "Timor-Leste"
+                },
+                {
+                    "key": "TG",
+                    "numericCode": 768,
+                    "name": "Togo"
+                },
+                {
+                    "key": "TK",
+                    "numericCode": 772,
+                    "name": "Tokelau"
+                },
+                {
+                    "key": "TO",
+                    "numericCode": 776,
+                    "name": "Tonga"
+                },
+                {
+                    "key": "TT",
+                    "numericCode": 780,
+                    "name": "Trinidad and Tobago"
+                },
+                {
+                    "key": "TN",
+                    "numericCode": 788,
+                    "name": "Tunisia"
+                },
+                {
+                    "key": "TR",
+                    "numericCode": 792,
+                    "name": "Turkey"
+                },
+                {
+                    "key": "TM",
+                    "numericCode": 795,
+                    "name": "Turkmenistan"
+                },
+                {
+                    "key": "TC",
+                    "numericCode": 796,
+                    "name": "Turks and Caicos Islands"
+                },
+                {
+                    "key": "TV",
+                    "numericCode": 798,
+                    "name": "Tuvalu"
+                },
+                {
+                    "key": "UG",
+                    "numericCode": 800,
+                    "name": "Uganda"
+                },
+                {
+                    "key": "UA",
+                    "numericCode": 804,
+                    "name": "Ukraine"
+                },
+                {
+                    "key": "AE",
+                    "numericCode": 784,
+                    "name": "United Arab Emirates"
+                },
+                {
+                    "key": "GB",
+                    "numericCode": 826,
+                    "name": "United Kingdom"
+                },
+                {
+                    "key": "US",
+                    "numericCode": 840,
+                    "name": "United States"
+                },
+                {
+                    "key": "UM",
+                    "numericCode": 581,
+                    "name": "United States Minor Outlying Islands"
+                },
+                {
+                    "key": "UY",
+                    "numericCode": 858,
+                    "name": "Uruguay"
+                },
+                {
+                    "key": "UZ",
+                    "numericCode": 860,
+                    "name": "Uzbekistan"
+                },
+                {
+                    "key": "VU",
+                    "numericCode": 548,
+                    "name": "Vanuatu"
+                },
+                {
+                    "key": "VE",
+                    "numericCode": 862,
+                    "name": "Venezuela, Bolivarian Republic of"
+                },
+                {
+                    "key": "VN",
+                    "numericCode": 704,
+                    "name": "Viet Nam"
+                },
+                {
+                    "key": "VG",
+                    "numericCode": 92,
+                    "name": "Virgin Islands, British"
+                },
+                {
+                    "key": "VI",
+                    "numericCode": 850,
+                    "name": "Virgin Islands, U.S."
+                },
+                {
+                    "key": "WF",
+                    "numericCode": 876,
+                    "name": "Wallis and Futuna"
+                },
+                {
+                    "key": "EH",
+                    "numericCode": 732,
+                    "name": "Western Sahara"
+                },
+                {
+                    "key": "YE",
+                    "numericCode": 887,
+                    "name": "Yemen"
+                },
+                {
+                    "key": "ZM",
+                    "numericCode": 894,
+                    "name": "Zambia"
+                },
+                {
+                    "key": "ZW",
+                    "numericCode": 716,
+                    "name": "Zimbabwe"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "data": [
+        {
+            "name": "MT4",
+            "description": null,
+            "key": "mt4",
+            "tradingAccountTypes": [
+                {
+                    "key": "fxpro",
+                    "name": "MT4",
+                    "description": "MT4"
+                },
+                {
+                    "key": "super",
+                    "name": "SuperTrader",
+                    "description": "Supertrader"
+                },
+                {
+                    "key": "fixed",
+                    "name": "MT4 Fixed Spreads",
+                    "description": "MT4 Fixed Spreads"
+                },
+                {
+                    "key": "wlxsuper",
+                    "name": "SuperTrader WLL Full",
+                    "description": "SuperTrader WLL Full"
+                },
+                {
+                    "key": "wllsuper",
+                    "name": "Supertrader WLL Light",
+                    "description": "Supertrader WLL Light"
+                },
+                {
+                    "key": "asn",
+                    "name": "MT4 Asian Selection",
+                    "description": "MT4 Asian Selection"
+                },
+                {
+                    "key": "mt4m",
+                    "name": "MT4 Market",
+                    "description": "MT4 Market Execution"
+                }
+            ]
+        },
+        {
+            "name": "cTrader",
+            "description": null,
+            "key": "cTrader",
+            "tradingAccountTypes": [
+                {
+                    "key": "xtrader",
+                    "name": "cTrader",
+                    "description": "cTrader"
+                },
+                {
+                    "key": "fxpromarkets",
+                    "name": "FxPro Markets",
+                    "description": "FxPro Markets"
+                }
+            ]
+        },
+        {
+            "name": "MT5",
+            "description": null,
+            "key": "mt5",
+            "tradingAccountTypes": [
+                {
+                    "key": "mt5",
+                    "name": "MT5",
+                    "description": "MT5"
+                }
+            ]
+        }
+    ]
+}

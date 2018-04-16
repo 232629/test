@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "xtrader": {
+                "groups": {
+                    "eur": {
+                        "group": "BBAEBGRE",
+                        "servers": [
+                            "xt.test"
+                        ]
+                    },
+                    "gbp": {
+                        "group": "BBAEBGRP",
+                        "servers": [
+                            "xt.test"
+                        ]
+                    },
+                    "usd": {
+                        "group": "BBAEBGRD",
+                        "servers": [
+                            "xt.test"
+                        ]
+                    }
+                },
+                "leverages": [
+                    1,
+                    2,
+                    5,
+                    10,
+                    20,
+                    50,
+                    75,
+                    100,
+                    200,
+                    400,
+                    500
+                ],
+                "options": null
+            }
+        }
+    ]
+}

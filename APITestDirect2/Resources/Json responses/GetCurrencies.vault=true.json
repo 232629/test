@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+            "key": "EUR",
+            "vaultOptions": [
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAE",
+                    "authority": "cysec"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAE",
+                    "authority": "mena"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAE",
+                    "authority": "gm"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXUKVAE",
+                    "authority": "fca"
+                }
+            ]
+        },
+        {
+            "key": "GBP",
+            "vaultOptions": [
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAP",
+                    "authority": "cysec"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAP",
+                    "authority": "mena"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAP",
+                    "authority": "gm"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXUKVAP",
+                    "authority": "fca"
+                }
+            ]
+        },
+        {
+            "key": "USD",
+            "vaultOptions": [
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAD",
+                    "authority": "cysec"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAD",
+                    "authority": "mena"
+                },
+                {
+                    "server": "nf.test4",
+                    "group": "FXHQVAD",
+                    "authority": "gm"
+                }
+            ]
+        }
+    ]
+}

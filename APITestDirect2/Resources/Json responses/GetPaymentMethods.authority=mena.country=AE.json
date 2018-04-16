@@ -1,0 +1,447 @@
+{
+    "data": [
+        {
+            "currency": "EUR",
+            "providers": [
+                {
+                    "key": "ingenico",
+                    "name": "Ingenico",
+                    "stpAllowed": true,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [
+                        {
+                            "key": "refundablePeriod",
+                            "value": "180"
+                        },
+                        {
+                            "key": "host",
+                            "value": "api-preprod.globalcollect.com"
+                        },
+                        {
+                            "key": "apiKeyId",
+                            "value": "6ee2f26c55aeaec3"
+                        },
+                        {
+                            "key": "secretApiKey",
+                            "value": "egZzFJ2H+7nTHPQDXAC5ZfjXw5GS8xZeJ1j3cFPBVj4="
+                        },
+                        {
+                            "key": "integrator",
+                            "value": "FxPro"
+                        },
+                        {
+                            "key": "merchantId",
+                            "value": "2569"
+                        },
+                        {
+                            "key": "hostedPageUrlPrefix",
+                            "value": "https://payment."
+                        },
+                        {
+                            "key": "products",
+                            "value": "114,122,119"
+                        },
+                        {
+                            "key": "feesVip",
+                            "value": "0"
+                        },
+                        {
+                            "key": "feesDeposit",
+                            "value": "0"
+                        },
+                        {
+                            "key": "feesDepositDebit",
+                            "value": "0"
+                        }
+                    ],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 1000000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 100.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": []
+                },
+                {
+                    "key": "bankwire",
+                    "name": "Bankwire",
+                    "stpAllowed": false,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 1000000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 100.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": [
+                        {
+                            "name": "Emirates NBD",
+                            "type": "bankAccount",
+                            "config": [
+                                {
+                                    "key": "beneficiaryBankName",
+                                    "value": "Emirates NBD"
+                                },
+                                {
+                                    "key": "bankAddress",
+                                    "value": "P.O. Box 777 Baniyas Road, Dubai United Arab Emirates"
+                                },
+                                {
+                                    "key": "branchName",
+                                    "value": "USE beneficiaryName Key!!!!!"
+                                },
+                                {
+                                    "key": "swift",
+                                    "value": "EBILAEADXXX"
+                                },
+                                {
+                                    "key": "iban",
+                                    "value": "AE820260000515361561907"
+                                },
+                                {
+                                    "key": "beneficiaryName",
+                                    "value": "FxPro Global Markets MENA Limited"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "currency": "USD",
+            "providers": [
+                {
+                    "key": "ingenico",
+                    "name": "Ingenico",
+                    "stpAllowed": true,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [
+                        {
+                            "key": "refundablePeriod",
+                            "value": "180"
+                        },
+                        {
+                            "key": "host",
+                            "value": "api-preprod.globalcollect.com"
+                        },
+                        {
+                            "key": "apiKeyId",
+                            "value": "6ee2f26c55aeaec3"
+                        },
+                        {
+                            "key": "secretApiKey",
+                            "value": "egZzFJ2H+7nTHPQDXAC5ZfjXw5GS8xZeJ1j3cFPBVj4="
+                        },
+                        {
+                            "key": "integrator",
+                            "value": "FxPro"
+                        },
+                        {
+                            "key": "merchantId",
+                            "value": "2569"
+                        },
+                        {
+                            "key": "hostedPageUrlPrefix",
+                            "value": "https://payment."
+                        },
+                        {
+                            "key": "products",
+                            "value": "114,122,119"
+                        },
+                        {
+                            "key": "feesVip",
+                            "value": "0"
+                        },
+                        {
+                            "key": "feesDeposit",
+                            "value": "0"
+                        },
+                        {
+                            "key": "feesDepositDebit",
+                            "value": "0"
+                        }
+                    ],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 1000000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 100.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": []
+                },
+                {
+                    "key": "bankwire",
+                    "name": "Bankwire",
+                    "stpAllowed": false,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 1000000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 100.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": [
+                        {
+                            "name": "Emirates NBD",
+                            "type": "bankAccount",
+                            "config": [
+                                {
+                                    "key": "beneficiaryBankName",
+                                    "value": "Emirates NBD"
+                                },
+                                {
+                                    "key": "bankAddress",
+                                    "value": "P.O. Box 777 Baniyas Road, Dubai United Arab Emirates"
+                                },
+                                {
+                                    "key": "branchName",
+                                    "value": "USE beneficiaryName Key!!!!!"
+                                },
+                                {
+                                    "key": "swift",
+                                    "value": "EBILAEADXXX"
+                                },
+                                {
+                                    "key": "iban",
+                                    "value": "AE390260000515361561905"
+                                },
+                                {
+                                    "key": "beneficiaryName",
+                                    "value": "FxPro Global Markets MENA Limited"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "currency": "GBP",
+            "providers": [
+                {
+                    "key": "ingenico",
+                    "name": "Ingenico",
+                    "stpAllowed": true,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [
+                        {
+                            "key": "refundablePeriod",
+                            "value": "180"
+                        },
+                        {
+                            "key": "host",
+                            "value": "api-preprod.globalcollect.com"
+                        },
+                        {
+                            "key": "apiKeyId",
+                            "value": "6ee2f26c55aeaec3"
+                        },
+                        {
+                            "key": "secretApiKey",
+                            "value": "egZzFJ2H+7nTHPQDXAC5ZfjXw5GS8xZeJ1j3cFPBVj4="
+                        },
+                        {
+                            "key": "integrator",
+                            "value": "FxPro"
+                        },
+                        {
+                            "key": "merchantId",
+                            "value": "2569"
+                        },
+                        {
+                            "key": "hostedPageUrlPrefix",
+                            "value": "https://payment."
+                        },
+                        {
+                            "key": "products",
+                            "value": "114,122,119"
+                        },
+                        {
+                            "key": "feesVip",
+                            "value": "0"
+                        },
+                        {
+                            "key": "feesDeposit",
+                            "value": "0"
+                        },
+                        {
+                            "key": "feesDepositDebit",
+                            "value": "0"
+                        }
+                    ],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 1000000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 100.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": []
+                },
+                {
+                    "key": "bankwire",
+                    "name": "Bankwire",
+                    "stpAllowed": false,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 1000000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 100.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": [
+                        {
+                            "name": "Emirates NBD",
+                            "type": "bankAccount",
+                            "config": [
+                                {
+                                    "key": "beneficiaryBankName",
+                                    "value": "Emirates NBD"
+                                },
+                                {
+                                    "key": "bankAddress",
+                                    "value": "P.O. Box 777 Baniyas Road, Dubai United Arab Emirates"
+                                },
+                                {
+                                    "key": "branchName",
+                                    "value": "USE beneficiaryName Key!!!!!"
+                                },
+                                {
+                                    "key": "swift",
+                                    "value": "EBILAEADXXX"
+                                },
+                                {
+                                    "key": "iban",
+                                    "value": "AE120260000515361561906"
+                                },
+                                {
+                                    "key": "beneficiaryName",
+                                    "value": "FxPro Global Markets MENA Limited"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "currency": "THB",
+            "providers": [
+                {
+                    "key": "paysec",
+                    "name": "Paysec",
+                    "stpAllowed": false,
+                    "stpMinDepositsCount": 0,
+                    "stpMaxDepositAmount": 0.0,
+                    "defaultLeverage": 50.0,
+                    "config": [
+                        {
+                            "key": "host",
+                            "value": "https://pay.paysec.com"
+                        },
+                        {
+                            "key": "companyId",
+                            "value": "M999-C-595"
+                        },
+                        {
+                            "key": "merchantKey",
+                            "value": "7Ct53N"
+                        }
+                    ],
+                    "settings": [
+                        {
+                            "key": "withdrawals",
+                            "min": 0.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        },
+                        {
+                            "key": "deposits",
+                            "min": 0.0,
+                            "max": 10000.0,
+                            "enabled": true
+                        }
+                    ],
+                    "fields": [],
+                    "withdrawalFields": [],
+                    "accounts": []
+                }
+            ]
+        }
+    ]
+}
